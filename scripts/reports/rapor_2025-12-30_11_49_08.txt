@@ -1,0 +1,20 @@
+Analiz Edilen Dosya: /var/log/syslog.1
+Tarih: Tue Dec 30 11:49:08 AM +03 2025
+----------------------------------------
+=== Başarısız SSH Girişleri ===
+Toplam Başarısız Deneme: 0
+Veri bulunamadı.
+----------------------------------------
+=== Başarılı SSH Girişleri ===
+Toplam Başarılı Giriş: 0
+Veri bulunamadı.
+----------------------------------------
+=== Sudo (Yetkili) Komut Analizi ===
+Sudo kullanımı tespit edilmedi (veya bu dosyada yok).
+----------------------------------------
+=== Kritik Sistem/Kernel Hataları ===
+Toplam 'Error' Kaydı: 124
+----------------------------------------
+=== Firewall (UFW) Engellemeleri ===
+Firewall engelleme kaydı bulunamadı.
+----------------------------------------

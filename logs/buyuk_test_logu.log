@@ -1,0 +1,600 @@
+Dec 01 08:00:01 server kernel: [1948.917490] segfault at 0 ip 00007f3a1b2c3d4e sp 00007fffaabbccdd error 4 in libc-2.31.so
+Dec 01 08:00:04 server sshd[2030]: Failed password for guest from 123.45.67.89 port 29481 ssh2
+Dec 01 08:00:05 server sshd[5109]: Failed password for invalid user ubnt from 203.0.113.55 port 35885 ssh2
+Dec 01 08:00:09 server sshd[5294]: Failed password for invalid user ubnt from 10.0.0.5 port 22924 ssh2
+Dec 01 08:00:12 server sshd[5927]: Accepted password for batuhan from 192.168.1.50 port 21373 ssh2
+Dec 01 08:00:15 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/sbin/shutdown -r now
+Dec 01 08:00:18 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/whoami
+Dec 01 08:00:19 server sshd[2116]: Failed password for invalid user root from 11.22.33.44 port 26233 ssh2
+Dec 01 08:00:22 server sshd[2095]: Failed password for batuhan from 123.45.67.89 port 19848 ssh2
+Dec 01 08:00:26 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/sbin/shutdown -r now
+Dec 01 08:00:28 server apache2[792]: [error] [client 98.76.54.32] File does not exist: /var/www/html/wp-admin
+Dec 01 08:00:33 server kernel: [8464.200809] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=54215 DPT=80 SYN
+Dec 01 08:00:38 server sshd[3102]: Failed password for invalid user support from 123.45.67.89 port 59568 ssh2
+Dec 01 08:00:43 server sshd[3050]: Failed password for invalid user admin from 192.168.1.10 port 54788 ssh2
+Dec 01 08:00:47 server sshd[3331]: Failed password for invalid user root from 10.0.0.5 port 39254 ssh2
+Dec 01 08:00:48 server sshd[6948]: Accepted password for batuhan from 192.168.1.50 port 11686 ssh2
+Dec 01 08:00:50 server sshd[5819]: Failed password for invalid user guest from 185.200.11.2 port 41387 ssh2
+Dec 01 08:00:54 server sshd[9734]: Failed password for pi from 123.45.67.89 port 56155 ssh2
+Dec 01 08:00:55 server sshd[4213]: Failed password for invalid user pi from 45.33.22.11 port 38444 ssh2
+Dec 01 08:01:00 server sshd[4910]: Failed password for invalid user ubnt from 123.45.67.89 port 21060 ssh2
+Dec 01 08:01:04 server kernel: [3021.064860] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=50359 DPT=8080 SYN
+Dec 01 08:01:07 server sshd[1536]: Failed password for invalid user pi from 192.168.1.10 port 50772 ssh2
+Dec 01 08:01:10 server sshd[3749]: Failed password for invalid user ubnt from 11.22.33.44 port 11428 ssh2
+Dec 01 08:01:11 server sshd[1650]: Failed password for invalid user pi from 185.200.11.2 port 41625 ssh2
+Dec 01 08:01:13 server sshd[1851]: Failed password for support from 123.45.67.89 port 50168 ssh2
+Dec 01 08:01:18 server kernel: [1740.334254] segfault at 0 ip 00007f3a1b2c3d4e sp 00007fffaabbccdd error 4 in libc-2.31.so
+Dec 01 08:01:19 server kernel: [5388.957645] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=192.168.1.10 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=14127 DPT=443 SYN
+Dec 01 08:01:23 server apache2[494]: [error] [client 203.0.113.55] File does not exist: /var/www/html/shell.php
+Dec 01 08:01:28 server sshd[2452]: Failed password for support from 123.45.67.89 port 26569 ssh2
+Dec 01 08:01:30 server kernel: [2630.054924] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=98.76.54.32 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=51846 DPT=22 SYN
+Dec 01 08:01:35 server apache2[287]: [error] [client 11.22.33.44] File does not exist: /var/www/html/wp-admin
+Dec 01 08:01:40 server kernel: [1453.017118] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=40722 DPT=8080 SYN
+Dec 01 08:01:43 server sshd[4708]: Failed password for ubnt from 11.22.33.44 port 48230 ssh2
+Dec 01 08:01:48 server apache2[827]: [error] [client 98.76.54.32] File does not exist: /var/www/html/.env
+Dec 01 08:01:49 server sshd[8647]: Failed password for invalid user root from 11.22.33.44 port 38417 ssh2
+Dec 01 08:01:50 server sshd[2556]: Failed password for admin from 10.0.0.5 port 48137 ssh2
+Dec 01 08:01:54 server sshd[4817]: Failed password for pi from 123.45.67.89 port 56847 ssh2
+Dec 01 08:01:58 server kernel: [7656.426098] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=185.200.11.2 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=59767 DPT=22 SYN
+Dec 01 08:02:01 server sshd[9813]: Failed password for guest from 45.33.22.11 port 33769 ssh2
+Dec 01 08:02:04 server sshd[5780]: Failed password for invalid user admin from 123.45.67.89 port 19250 ssh2
+Dec 01 08:02:08 server apache2[531]: [error] [client 11.22.33.44] File does not exist: /var/www/html/shell.php
+Dec 01 08:02:13 server sshd[1187]: Failed password for ubnt from 123.45.67.89 port 13289 ssh2
+Dec 01 08:02:15 server apache2[200]: [error] [client 45.33.22.11] File does not exist: /var/www/html/shell.php
+Dec 01 08:02:18 server sshd[4915]: Failed password for ubnt from 192.168.1.10 port 50551 ssh2
+Dec 01 08:02:19 server sshd[6341]: Failed password for support from 123.45.67.89 port 51821 ssh2
+Dec 01 08:02:24 server sshd[5618]: Failed password for support from 45.33.22.11 port 47481 ssh2
+Dec 01 08:02:28 server apache2[476]: [error] [client 98.76.54.32] File does not exist: /var/www/html/login.php
+Dec 01 08:02:30 server sshd[7178]: Failed password for guest from 45.33.22.11 port 29363 ssh2
+Dec 01 08:02:34 server sshd[4659]: Failed password for invalid user batuhan from 123.45.67.89 port 15515 ssh2
+Dec 01 08:02:39 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Dec 01 08:02:44 server sshd[7161]: Failed password for invalid user guest from 45.33.22.11 port 14358 ssh2
+Dec 01 08:02:47 server sshd[8365]: Failed password for pi from 10.0.0.5 port 55921 ssh2
+Dec 01 08:02:49 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Dec 01 08:02:54 server sshd[1087]: Failed password for invalid user test from 192.168.1.10 port 38195 ssh2
+Dec 01 08:02:57 server sshd[2893]: Failed password for pi from 123.45.67.89 port 55506 ssh2
+Dec 01 08:02:58 server kernel: [2730.617406] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=123.45.67.89 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=20384 DPT=80 SYN
+Dec 01 08:03:02 server sshd[7126]: Failed password for invalid user ubnt from 185.200.11.2 port 49598 ssh2
+Dec 01 08:03:03 server kernel: [8995.094855] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=61377 DPT=8080 SYN
+Dec 01 08:03:05 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config
+Dec 01 08:03:10 server sshd[7051]: Failed password for invalid user test from 192.168.1.10 port 45227 ssh2
+Dec 01 08:03:11 server sshd[3056]: Accepted password for batuhan from 192.168.1.50 port 41093 ssh2
+Dec 01 08:03:16 server sshd[4868]: Failed password for pi from 45.33.22.11 port 59871 ssh2
+Dec 01 08:03:19 server sshd[8720]: Accepted password for batuhan from 192.168.1.50 port 52440 ssh2
+Dec 01 08:03:20 server sshd[9119]: Failed password for invalid user admin from 10.0.0.5 port 14304 ssh2
+Dec 01 08:03:24 server sshd[6268]: Failed password for invalid user guest from 98.76.54.32 port 40132 ssh2
+Dec 01 08:03:25 server sshd[1386]: Failed password for invalid user root from 123.45.67.89 port 30774 ssh2
+Dec 01 08:03:30 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/whoami
+Dec 01 08:03:35 server apache2[644]: [error] [client 203.0.113.55] File does not exist: /var/www/html/shell.php
+Dec 01 08:03:38 server sshd[6769]: Accepted password for batuhan from 192.168.1.50 port 10803 ssh2
+Dec 01 08:03:42 server sshd[1063]: Accepted password for batuhan from 192.168.1.50 port 29660 ssh2
+Dec 01 08:03:45 server kernel: [2103.314594] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=203.0.113.55 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=54177 DPT=8080 SYN
+Dec 01 08:03:47 server sshd[5226]: Accepted password for batuhan from 192.168.1.50 port 31805 ssh2
+Dec 01 08:03:49 server sshd[7603]: Failed password for invalid user batuhan from 123.45.67.89 port 32807 ssh2
+Dec 01 08:03:50 server sshd[9386]: Failed password for invalid user root from 10.0.0.5 port 20483 ssh2
+Dec 01 08:03:55 server apache2[852]: [error] [client 203.0.113.55] File does not exist: /var/www/html/.env
+Dec 01 08:03:57 server sshd[7389]: Accepted password for batuhan from 192.168.1.50 port 43773 ssh2
+Dec 01 08:03:58 server sshd[7346]: Failed password for invalid user guest from 203.0.113.55 port 23967 ssh2
+Dec 01 08:04:00 server apache2[426]: [error] [client 11.22.33.44] File does not exist: /var/www/html/admin
+Dec 01 08:04:05 server sshd[2919]: Accepted password for batuhan from 192.168.1.50 port 55972 ssh2
+Dec 01 08:04:09 server sshd[9142]: Failed password for invalid user guest from 98.76.54.32 port 37827 ssh2
+Dec 01 08:04:13 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Dec 01 08:04:15 server sshd[4501]: Failed password for test from 185.200.11.2 port 15835 ssh2
+Dec 01 08:04:20 server sshd[2634]: Failed password for test from 98.76.54.32 port 50227 ssh2
+Dec 01 08:04:21 server sshd[4262]: Failed password for test from 10.0.0.5 port 37045 ssh2
+Dec 01 08:04:25 server kernel: [1957.499065] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=123.45.67.89 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=37628 DPT=80 SYN
+Dec 01 08:04:29 server sshd[3672]: Failed password for invalid user admin from 203.0.113.55 port 27610 ssh2
+Dec 01 08:04:30 server kernel: [5607.593844] Out of memory: Kill process 3081 (java) score 900 or sacrifice child
+Dec 01 08:04:34 server sshd[2298]: Failed password for invalid user admin from 45.33.22.11 port 18737 ssh2
+Dec 01 08:04:36 server sshd[6715]: Failed password for guest from 203.0.113.55 port 21454 ssh2
+Dec 01 08:04:40 server sshd[6569]: Failed password for invalid user root from 10.0.0.5 port 28509 ssh2
+Dec 01 08:04:43 server sshd[2501]: Accepted password for batuhan from 192.168.1.50 port 53037 ssh2
+Dec 01 08:04:44 server sshd[1161]: Failed password for invalid user guest from 123.45.67.89 port 40860 ssh2
+Dec 01 08:04:46 server sshd[3005]: Failed password for root from 45.33.22.11 port 51208 ssh2
+Dec 01 08:04:51 server sshd[7088]: Failed password for invalid user admin from 192.168.1.10 port 50072 ssh2
+Dec 01 08:04:52 server sshd[2716]: Failed password for support from 10.0.0.5 port 58924 ssh2
+Dec 01 08:04:53 server kernel: [2571.805048] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=5516 DPT=22 SYN
+Dec 01 08:04:58 server kernel: [3296.175688] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=192.168.1.10 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=60348 DPT=443 SYN
+Dec 01 08:05:03 server kernel: [6027.637550] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=13701 DPT=22 SYN
+Dec 01 08:05:07 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/sbin/shutdown -r now
+Dec 01 08:05:12 server sshd[4228]: Failed password for invalid user pi from 203.0.113.55 port 56999 ssh2
+Dec 01 08:05:16 server kernel: [4664.477827] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=192.168.1.10 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=47356 DPT=22 SYN
+Dec 01 08:05:19 server sshd[4086]: Accepted password for batuhan from 192.168.1.50 port 16022 ssh2
+Dec 01 08:05:24 server sshd[3800]: Failed password for batuhan from 98.76.54.32 port 27325 ssh2
+Dec 01 08:05:25 server sshd[2768]: Failed password for invalid user ubnt from 11.22.33.44 port 34410 ssh2
+Dec 01 08:05:27 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/sbin/shutdown -r now
+Dec 01 08:05:30 server sshd[8255]: Failed password for pi from 10.0.0.5 port 54566 ssh2
+Dec 01 08:05:34 server sshd[2303]: Failed password for ubnt from 185.200.11.2 port 35831 ssh2
+Dec 01 08:05:36 server sshd[2174]: Failed password for invalid user test from 10.0.0.5 port 47564 ssh2
+Dec 01 08:05:39 server sshd[9008]: Accepted password for batuhan from 192.168.1.50 port 50299 ssh2
+Dec 01 08:05:44 server sshd[9611]: Failed password for invalid user admin from 123.45.67.89 port 22165 ssh2
+Dec 01 08:05:49 server sshd[6514]: Failed password for invalid user batuhan from 203.0.113.55 port 12500 ssh2
+Dec 01 08:05:50 server kernel: [6820.008200] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=37303 DPT=8080 SYN
+Dec 01 08:05:51 server kernel: [7316.098983] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=192.168.1.10 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=11669 DPT=8080 SYN
+Dec 01 08:05:55 server kernel: [5362.124880] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=48562 DPT=80 SYN
+Dec 01 08:06:00 server sshd[2350]: Accepted password for batuhan from 192.168.1.50 port 47352 ssh2
+Dec 01 08:06:03 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config
+Dec 01 08:06:07 server sshd[5569]: Failed password for batuhan from 192.168.1.10 port 22118 ssh2
+Dec 01 08:06:08 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Dec 01 08:06:10 server apache2[382]: [error] [client 192.168.1.10] File does not exist: /var/www/html/config.php
+Dec 01 08:06:14 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:06:16 server sshd[2931]: Failed password for invalid user admin from 192.168.1.10 port 15964 ssh2
+Dec 01 08:06:21 server sshd[6043]: Accepted password for batuhan from 192.168.1.50 port 25466 ssh2
+Dec 01 08:06:26 server kernel: [1782.145280] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=123.45.67.89 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=58388 DPT=3306 SYN
+Dec 01 08:06:31 server sshd[7537]: Failed password for ubnt from 203.0.113.55 port 22097 ssh2
+Dec 01 08:06:34 server sshd[4842]: Failed password for invalid user admin from 185.200.11.2 port 25579 ssh2
+Dec 01 08:06:35 server sshd[6033]: Failed password for invalid user pi from 10.0.0.5 port 32182 ssh2
+Dec 01 08:06:40 server sshd[8854]: Failed password for invalid user ubnt from 10.0.0.5 port 18273 ssh2
+Dec 01 08:06:45 server sshd[6968]: Accepted password for batuhan from 192.168.1.50 port 59907 ssh2
+Dec 01 08:06:49 server sshd[6319]: Accepted password for batuhan from 192.168.1.50 port 27024 ssh2
+Dec 01 08:06:52 server sshd[1085]: Failed password for support from 203.0.113.55 port 39373 ssh2
+Dec 01 08:06:55 server sshd[1750]: Accepted password for batuhan from 192.168.1.50 port 27887 ssh2
+Dec 01 08:06:57 server sshd[1112]: Failed password for pi from 11.22.33.44 port 49097 ssh2
+Dec 01 08:06:58 server kernel: [5372.794381] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=29695 DPT=3306 SYN
+Dec 01 08:07:01 server apache2[248]: [error] [client 192.168.1.10] File does not exist: /var/www/html/shell.php
+Dec 01 08:07:06 server sshd[3644]: Accepted password for batuhan from 192.168.1.50 port 43673 ssh2
+Dec 01 08:07:11 server kernel: [3931.472957] Out of memory: Kill process 6027 (java) score 900 or sacrifice child
+Dec 01 08:07:14 server sshd[7048]: Accepted password for batuhan from 192.168.1.50 port 40839 ssh2
+Dec 01 08:07:15 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/sbin/shutdown -r now
+Dec 01 08:07:20 server sshd[9441]: Failed password for batuhan from 203.0.113.55 port 36651 ssh2
+Dec 01 08:07:25 server sshd[8487]: Accepted password for batuhan from 192.168.1.50 port 31210 ssh2
+Dec 01 08:07:26 server sshd[9698]: Failed password for batuhan from 10.0.0.5 port 26016 ssh2
+Dec 01 08:07:29 server sshd[6636]: Failed password for pi from 11.22.33.44 port 25912 ssh2
+Dec 01 08:07:32 server apache2[242]: [error] [client 11.22.33.44] File does not exist: /var/www/html/admin
+Dec 01 08:07:33 server kernel: [2734.674672] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=98.76.54.32 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=57387 DPT=80 SYN
+Dec 01 08:07:35 server sshd[3733]: Failed password for invalid user guest from 45.33.22.11 port 13417 ssh2
+Dec 01 08:07:36 server sshd[1082]: Accepted password for batuhan from 192.168.1.50 port 22064 ssh2
+Dec 01 08:07:38 server apache2[251]: [error] [client 10.0.0.5] File does not exist: /var/www/html/login.php
+Dec 01 08:07:40 server kernel: [3808.613836] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=98.76.54.32 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=56914 DPT=3306 SYN
+Dec 01 08:07:44 server kernel: [5170.765950] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=123.45.67.89 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=28639 DPT=80 SYN
+Dec 01 08:07:45 server sshd[7100]: Failed password for ubnt from 45.33.22.11 port 48999 ssh2
+Dec 01 08:07:46 server sshd[2973]: Failed password for test from 192.168.1.10 port 32217 ssh2
+Dec 01 08:07:47 server apache2[220]: [error] [client 98.76.54.32] File does not exist: /var/www/html/shell.php
+Dec 01 08:07:48 server sshd[3456]: Failed password for invalid user batuhan from 192.168.1.10 port 29871 ssh2
+Dec 01 08:07:50 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:07:55 server sshd[7093]: Failed password for invalid user batuhan from 11.22.33.44 port 35384 ssh2
+Dec 01 08:07:57 server kernel: [2264.051318] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=12086 DPT=8080 SYN
+Dec 01 08:07:59 server apache2[290]: [error] [client 185.200.11.2] File does not exist: /var/www/html/shell.php
+Dec 01 08:08:00 server sshd[8102]: Failed password for test from 10.0.0.5 port 59839 ssh2
+Dec 01 08:08:01 server sshd[8054]: Accepted password for batuhan from 192.168.1.50 port 45508 ssh2
+Dec 01 08:08:02 server sshd[3877]: Failed password for invalid user ubnt from 10.0.0.5 port 18843 ssh2
+Dec 01 08:08:05 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/whoami
+Dec 01 08:08:10 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:08:12 server sshd[5904]: Failed password for invalid user support from 10.0.0.5 port 25731 ssh2
+Dec 01 08:08:13 server sshd[2892]: Failed password for support from 185.200.11.2 port 38864 ssh2
+Dec 01 08:08:18 server kernel: [3036.398995] EXT4-fs error (device sda1): ext4_lookup:1594: inode #131073: comm sd-resolve: deleted inode referenced
+Dec 01 08:08:19 server sshd[1098]: Accepted password for batuhan from 192.168.1.50 port 38392 ssh2
+Dec 01 08:08:20 server sshd[6733]: Accepted password for batuhan from 192.168.1.50 port 28129 ssh2
+Dec 01 08:08:24 server sshd[3593]: Failed password for invalid user admin from 10.0.0.5 port 58836 ssh2
+Dec 01 08:08:27 server sshd[5966]: Failed password for invalid user ubnt from 192.168.1.10 port 53755 ssh2
+Dec 01 08:08:28 server sshd[3988]: Accepted password for batuhan from 192.168.1.50 port 25426 ssh2
+Dec 01 08:08:32 server sshd[8961]: Accepted password for batuhan from 192.168.1.50 port 18512 ssh2
+Dec 01 08:08:37 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:08:40 server sshd[9722]: Failed password for invalid user ubnt from 45.33.22.11 port 53081 ssh2
+Dec 01 08:08:41 server kernel: [1770.785949] segfault at 0 ip 00007f3a1b2c3d4e sp 00007fffaabbccdd error 4 in libc-2.31.so
+Dec 01 08:08:44 server sshd[3416]: Failed password for invalid user support from 203.0.113.55 port 31905 ssh2
+Dec 01 08:08:47 server sshd[2258]: Failed password for invalid user support from 185.200.11.2 port 13138 ssh2
+Dec 01 08:08:51 server kernel: [1432.281453] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=185.200.11.2 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=45955 DPT=22 SYN
+Dec 01 08:08:55 server sshd[6421]: Failed password for test from 185.200.11.2 port 56225 ssh2
+Dec 01 08:08:56 server sshd[6530]: Failed password for batuhan from 123.45.67.89 port 39907 ssh2
+Dec 01 08:08:58 server sshd[8516]: Failed password for invalid user test from 11.22.33.44 port 15804 ssh2
+Dec 01 08:09:01 server sshd[7230]: Failed password for invalid user test from 10.0.0.5 port 27497 ssh2
+Dec 01 08:09:06 server sshd[7265]: Accepted password for batuhan from 192.168.1.50 port 14529 ssh2
+Dec 01 08:09:08 server sshd[7397]: Failed password for invalid user guest from 185.200.11.2 port 15452 ssh2
+Dec 01 08:09:10 server kernel: [2534.763084] EXT4-fs error (device sda1): ext4_lookup:1594: inode #131073: comm sd-resolve: deleted inode referenced
+Dec 01 08:09:15 server sshd[4486]: Failed password for invalid user guest from 11.22.33.44 port 23320 ssh2
+Dec 01 08:09:16 server sshd[3790]: Failed password for support from 98.76.54.32 port 14676 ssh2
+Dec 01 08:09:17 server apache2[222]: [error] [client 123.45.67.89] File does not exist: /var/www/html/login.php
+Dec 01 08:09:21 server sshd[4557]: Failed password for ubnt from 98.76.54.32 port 22837 ssh2
+Dec 01 08:09:26 server kernel: [7302.139338] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=56466 DPT=443 SYN
+Dec 01 08:09:27 server kernel: [7598.514081] EXT4-fs error (device sda1): ext4_lookup:1594: inode #131073: comm sd-resolve: deleted inode referenced
+Dec 01 08:09:30 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:09:34 server sshd[3231]: Accepted password for batuhan from 192.168.1.50 port 25753 ssh2
+Dec 01 08:09:35 server sshd[9871]: Failed password for invalid user support from 192.168.1.10 port 49279 ssh2
+Dec 01 08:09:40 server sshd[2668]: Failed password for invalid user pi from 11.22.33.44 port 10356 ssh2
+Dec 01 08:09:42 server sshd[7531]: Accepted password for batuhan from 192.168.1.50 port 10212 ssh2
+Dec 01 08:09:46 server sshd[6368]: Failed password for invalid user admin from 45.33.22.11 port 37354 ssh2
+Dec 01 08:09:50 server apache2[516]: [error] [client 45.33.22.11] File does not exist: /var/www/html/admin
+Dec 01 08:09:51 server sshd[1441]: Failed password for test from 192.168.1.10 port 41740 ssh2
+Dec 01 08:09:55 server sshd[4986]: Failed password for test from 10.0.0.5 port 35156 ssh2
+Dec 01 08:09:58 server sshd[1335]: Failed password for pi from 11.22.33.44 port 30915 ssh2
+Dec 01 08:10:00 server sshd[3734]: Failed password for admin from 185.200.11.2 port 28885 ssh2
+Dec 01 08:10:04 server apache2[694]: [error] [client 45.33.22.11] File does not exist: /var/www/html/.env
+Dec 01 08:10:08 server sshd[9026]: Failed password for invalid user test from 11.22.33.44 port 29063 ssh2
+Dec 01 08:10:12 server sshd[5528]: Failed password for admin from 185.200.11.2 port 25468 ssh2
+Dec 01 08:10:16 server sshd[6428]: Accepted password for batuhan from 192.168.1.50 port 39753 ssh2
+Dec 01 08:10:20 server apache2[747]: [error] [client 185.200.11.2] File does not exist: /var/www/html/wp-admin
+Dec 01 08:10:24 server sshd[2700]: Failed password for guest from 11.22.33.44 port 12573 ssh2
+Dec 01 08:10:26 server sshd[5077]: Failed password for invalid user guest from 10.0.0.5 port 58649 ssh2
+Dec 01 08:10:31 server kernel: [1186.221008] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=29836 DPT=443 SYN
+Dec 01 08:10:36 server sshd[5547]: Accepted password for batuhan from 192.168.1.50 port 30360 ssh2
+Dec 01 08:10:41 server sshd[2093]: Failed password for batuhan from 203.0.113.55 port 10490 ssh2
+Dec 01 08:10:44 server sshd[6546]: Failed password for admin from 11.22.33.44 port 55907 ssh2
+Dec 01 08:10:47 server sshd[6964]: Failed password for admin from 203.0.113.55 port 25353 ssh2
+Dec 01 08:10:48 server sshd[8597]: Failed password for invalid user ubnt from 11.22.33.44 port 56912 ssh2
+Dec 01 08:10:50 server sshd[9356]: Failed password for pi from 185.200.11.2 port 56406 ssh2
+Dec 01 08:10:54 server sshd[5453]: Failed password for invalid user test from 123.45.67.89 port 39325 ssh2
+Dec 01 08:10:58 server kernel: [1446.610164] Out of memory: Kill process 9592 (java) score 900 or sacrifice child
+Dec 01 08:10:59 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Dec 01 08:11:01 server sshd[9770]: Failed password for invalid user admin from 11.22.33.44 port 47101 ssh2
+Dec 01 08:11:04 server sshd[7784]: Failed password for test from 45.33.22.11 port 28859 ssh2
+Dec 01 08:11:09 server kernel: [4901.163644] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=185.200.11.2 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=22598 DPT=22 SYN
+Dec 01 08:11:11 server sshd[2689]: Failed password for invalid user guest from 10.0.0.5 port 41055 ssh2
+Dec 01 08:11:14 server sshd[4539]: Failed password for batuhan from 203.0.113.55 port 30905 ssh2
+Dec 01 08:11:18 server sshd[9689]: Accepted password for batuhan from 192.168.1.50 port 19274 ssh2
+Dec 01 08:11:21 server sshd[1914]: Accepted password for batuhan from 192.168.1.50 port 40264 ssh2
+Dec 01 08:11:23 server sshd[5804]: Failed password for root from 123.45.67.89 port 16914 ssh2
+Dec 01 08:11:26 server apache2[794]: [error] [client 45.33.22.11] File does not exist: /var/www/html/shell.php
+Dec 01 08:11:30 server sshd[8140]: Accepted password for batuhan from 192.168.1.50 port 12658 ssh2
+Dec 01 08:11:32 server sshd[5946]: Failed password for invalid user root from 123.45.67.89 port 30239 ssh2
+Dec 01 08:11:37 server apache2[528]: [error] [client 45.33.22.11] File does not exist: /var/www/html/admin
+Dec 01 08:11:42 server sshd[9580]: Failed password for guest from 185.200.11.2 port 51174 ssh2
+Dec 01 08:11:47 server kernel: [7970.095349] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=54738 DPT=80 SYN
+Dec 01 08:11:49 server sshd[3105]: Failed password for invalid user batuhan from 203.0.113.55 port 40877 ssh2
+Dec 01 08:11:54 server sshd[5942]: Failed password for invalid user test from 192.168.1.10 port 49891 ssh2
+Dec 01 08:11:58 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Dec 01 08:12:00 server sshd[5526]: Failed password for invalid user pi from 10.0.0.5 port 50607 ssh2
+Dec 01 08:12:01 server kernel: [5434.113405] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=2654 DPT=3306 SYN
+Dec 01 08:12:03 server kernel: [4326.775932] Out of memory: Kill process 2337 (java) score 900 or sacrifice child
+Dec 01 08:12:04 server sshd[8788]: Failed password for ubnt from 192.168.1.10 port 15499 ssh2
+Dec 01 08:12:06 server sshd[7804]: Failed password for guest from 11.22.33.44 port 46831 ssh2
+Dec 01 08:12:07 server sshd[3211]: Failed password for batuhan from 192.168.1.10 port 35704 ssh2
+Dec 01 08:12:12 server sshd[9412]: Failed password for invalid user test from 98.76.54.32 port 37608 ssh2
+Dec 01 08:12:13 server sshd[8536]: Failed password for invalid user root from 98.76.54.32 port 24228 ssh2
+Dec 01 08:12:17 server sshd[5519]: Failed password for batuhan from 203.0.113.55 port 48879 ssh2
+Dec 01 08:12:22 server sshd[7989]: Failed password for invalid user root from 10.0.0.5 port 12689 ssh2
+Dec 01 08:12:25 server sshd[9923]: Failed password for root from 203.0.113.55 port 44270 ssh2
+Dec 01 08:12:28 server sshd[5671]: Failed password for guest from 123.45.67.89 port 57781 ssh2
+Dec 01 08:12:32 server sshd[4117]: Accepted password for batuhan from 192.168.1.50 port 35787 ssh2
+Dec 01 08:12:33 server kernel: [4304.581897] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=203.0.113.55 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=54925 DPT=80 SYN
+Dec 01 08:12:38 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Dec 01 08:12:42 server apache2[508]: [error] [client 123.45.67.89] File does not exist: /var/www/html/admin
+Dec 01 08:12:43 server kernel: [8258.532467] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=43568 DPT=8080 SYN
+Dec 01 08:12:46 server sshd[6313]: Accepted password for batuhan from 192.168.1.50 port 21341 ssh2
+Dec 01 08:12:49 server sshd[9419]: Failed password for invalid user root from 10.0.0.5 port 52272 ssh2
+Dec 01 08:12:53 server sshd[1787]: Failed password for invalid user ubnt from 123.45.67.89 port 54631 ssh2
+Dec 01 08:12:57 server sshd[1876]: Failed password for pi from 45.33.22.11 port 59911 ssh2
+Dec 01 08:12:59 server kernel: [6788.939613] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=123.45.67.89 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=49137 DPT=443 SYN
+Dec 01 08:13:04 server sshd[7106]: Failed password for admin from 185.200.11.2 port 37132 ssh2
+Dec 01 08:13:06 server sshd[3710]: Failed password for invalid user pi from 11.22.33.44 port 17827 ssh2
+Dec 01 08:13:07 server sshd[1650]: Failed password for pi from 10.0.0.5 port 50948 ssh2
+Dec 01 08:13:08 server kernel: [5090.852355] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=192.168.1.10 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=1421 DPT=443 SYN
+Dec 01 08:13:10 server kernel: [7469.616827] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=37074 DPT=80 SYN
+Dec 01 08:13:11 server sshd[2542]: Failed password for test from 45.33.22.11 port 45837 ssh2
+Dec 01 08:13:13 server kernel: [7667.654942] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=98.76.54.32 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=42916 DPT=443 SYN
+Dec 01 08:13:15 server sshd[7116]: Failed password for batuhan from 10.0.0.5 port 47556 ssh2
+Dec 01 08:13:19 server sshd[4278]: Failed password for ubnt from 98.76.54.32 port 24122 ssh2
+Dec 01 08:13:24 server sshd[9722]: Failed password for test from 11.22.33.44 port 32061 ssh2
+Dec 01 08:13:26 server sshd[4814]: Failed password for test from 203.0.113.55 port 22920 ssh2
+Dec 01 08:13:30 server kernel: [2014.296651] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=185.200.11.2 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=34327 DPT=8080 SYN
+Dec 01 08:13:35 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Dec 01 08:13:40 server sshd[3551]: Failed password for invalid user pi from 10.0.0.5 port 18747 ssh2
+Dec 01 08:13:43 server sshd[5623]: Failed password for invalid user test from 10.0.0.5 port 13072 ssh2
+Dec 01 08:13:47 server kernel: [2028.530895] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=98.76.54.32 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=7850 DPT=22 SYN
+Dec 01 08:13:50 server kernel: [2599.440603] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=123.45.67.89 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=39556 DPT=443 SYN
+Dec 01 08:13:54 server sshd[5966]: Failed password for invalid user root from 192.168.1.10 port 16498 ssh2
+Dec 01 08:13:55 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:13:56 server kernel: [6474.703804] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=51034 DPT=443 SYN
+Dec 01 08:13:57 server sshd[1918]: Failed password for invalid user ubnt from 11.22.33.44 port 47846 ssh2
+Dec 01 08:13:59 server sshd[1885]: Failed password for invalid user root from 123.45.67.89 port 36877 ssh2
+Dec 01 08:14:04 server kernel: [1450.826993] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=203.0.113.55 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=17218 DPT=80 SYN
+Dec 01 08:14:06 server sshd[1562]: Failed password for support from 10.0.0.5 port 23296 ssh2
+Dec 01 08:14:11 server sshd[9928]: Accepted password for batuhan from 192.168.1.50 port 39249 ssh2
+Dec 01 08:14:12 server kernel: [7150.602380] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=192.168.1.10 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=34843 DPT=3306 SYN
+Dec 01 08:14:15 server sshd[8668]: Failed password for batuhan from 98.76.54.32 port 24113 ssh2
+Dec 01 08:14:19 server sshd[4638]: Failed password for test from 11.22.33.44 port 50197 ssh2
+Dec 01 08:14:23 server sshd[3486]: Failed password for ubnt from 11.22.33.44 port 31201 ssh2
+Dec 01 08:14:26 server sshd[9334]: Failed password for pi from 192.168.1.10 port 53057 ssh2
+Dec 01 08:14:29 server kernel: [8190.080449] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=29675 DPT=3306 SYN
+Dec 01 08:14:32 server apache2[378]: [error] [client 192.168.1.10] File does not exist: /var/www/html/config.php
+Dec 01 08:14:33 server sshd[7088]: Failed password for invalid user test from 98.76.54.32 port 33818 ssh2
+Dec 01 08:14:38 server sshd[1201]: Failed password for invalid user guest from 123.45.67.89 port 24430 ssh2
+Dec 01 08:14:42 server sshd[9322]: Failed password for invalid user batuhan from 203.0.113.55 port 44081 ssh2
+Dec 01 08:14:44 server kernel: [8614.045064] Out of memory: Kill process 1558 (java) score 900 or sacrifice child
+Dec 01 08:14:47 server sshd[3793]: Failed password for invalid user admin from 10.0.0.5 port 34948 ssh2
+Dec 01 08:14:51 server sshd[2472]: Failed password for test from 203.0.113.55 port 54923 ssh2
+Dec 01 08:14:56 server kernel: [6324.675216] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=2920 DPT=443 SYN
+Dec 01 08:14:57 server sshd[2637]: Failed password for invalid user root from 203.0.113.55 port 24536 ssh2
+Dec 01 08:14:59 server sshd[8163]: Failed password for root from 98.76.54.32 port 32189 ssh2
+Dec 01 08:15:04 server sshd[2491]: Failed password for batuhan from 98.76.54.32 port 58123 ssh2
+Dec 01 08:15:06 server apache2[373]: [error] [client 10.0.0.5] File does not exist: /var/www/html/login.php
+Dec 01 08:15:10 server sshd[9801]: Failed password for invalid user pi from 45.33.22.11 port 44169 ssh2
+Dec 01 08:15:13 server kernel: [7275.074862] Out of memory: Kill process 6958 (java) score 900 or sacrifice child
+Dec 01 08:15:18 server sshd[6989]: Failed password for root from 185.200.11.2 port 22637 ssh2
+Dec 01 08:15:19 server sshd[7362]: Failed password for support from 192.168.1.10 port 45190 ssh2
+Dec 01 08:15:21 server sshd[4620]: Failed password for guest from 98.76.54.32 port 37909 ssh2
+Dec 01 08:15:26 server apache2[409]: [error] [client 203.0.113.55] File does not exist: /var/www/html/login.php
+Dec 01 08:15:28 server sshd[3293]: Failed password for support from 123.45.67.89 port 35406 ssh2
+Dec 01 08:15:33 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:15:35 server sshd[8521]: Failed password for test from 185.200.11.2 port 38262 ssh2
+Dec 01 08:15:36 server sshd[1479]: Failed password for invalid user test from 185.200.11.2 port 57350 ssh2
+Dec 01 08:15:37 server kernel: [8867.827413] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=192.168.1.10 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=54238 DPT=80 SYN
+Dec 01 08:15:41 server sshd[9642]: Failed password for guest from 10.0.0.5 port 18286 ssh2
+Dec 01 08:15:46 server sshd[6362]: Failed password for admin from 185.200.11.2 port 35156 ssh2
+Dec 01 08:15:49 server kernel: [1966.262992] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=203.0.113.55 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=29302 DPT=8080 SYN
+Dec 01 08:15:53 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Dec 01 08:15:54 server sshd[8720]: Failed password for batuhan from 185.200.11.2 port 25270 ssh2
+Dec 01 08:15:57 server sshd[4038]: Failed password for invalid user guest from 123.45.67.89 port 37470 ssh2
+Dec 01 08:15:59 server sshd[7253]: Failed password for test from 45.33.22.11 port 49408 ssh2
+Dec 01 08:16:01 server apache2[749]: [error] [client 10.0.0.5] File does not exist: /var/www/html/.env
+Dec 01 08:16:05 server apache2[774]: [error] [client 45.33.22.11] File does not exist: /var/www/html/login.php
+Dec 01 08:16:09 server sshd[5929]: Failed password for guest from 203.0.113.55 port 21873 ssh2
+Dec 01 08:16:13 server sshd[6663]: Failed password for invalid user batuhan from 10.0.0.5 port 24943 ssh2
+Dec 01 08:16:14 server sshd[7944]: Failed password for ubnt from 203.0.113.55 port 31514 ssh2
+Dec 01 08:16:15 server sshd[6406]: Failed password for invalid user batuhan from 203.0.113.55 port 17343 ssh2
+Dec 01 08:16:18 server sshd[4758]: Failed password for batuhan from 11.22.33.44 port 11225 ssh2
+Dec 01 08:16:22 server kernel: [5118.598099] segfault at 0 ip 00007f3a1b2c3d4e sp 00007fffaabbccdd error 4 in libc-2.31.so
+Dec 01 08:16:26 server sshd[9591]: Failed password for ubnt from 203.0.113.55 port 55081 ssh2
+Dec 01 08:16:30 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Dec 01 08:16:33 server sshd[9799]: Accepted password for batuhan from 192.168.1.50 port 39758 ssh2
+Dec 01 08:16:38 server sshd[3920]: Failed password for admin from 203.0.113.55 port 16393 ssh2
+Dec 01 08:16:43 server sshd[5928]: Failed password for invalid user ubnt from 10.0.0.5 port 23183 ssh2
+Dec 01 08:16:47 server sshd[5694]: Accepted password for batuhan from 192.168.1.50 port 17591 ssh2
+Dec 01 08:16:50 server sshd[2354]: Failed password for invalid user pi from 192.168.1.10 port 44398 ssh2
+Dec 01 08:16:52 server apache2[104]: [error] [client 123.45.67.89] File does not exist: /var/www/html/shell.php
+Dec 01 08:16:55 server sshd[6630]: Failed password for invalid user ubnt from 98.76.54.32 port 55168 ssh2
+Dec 01 08:16:58 server kernel: [5494.474370] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=192.168.1.10 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=24120 DPT=8080 SYN
+Dec 01 08:17:01 server sshd[7722]: Failed password for test from 203.0.113.55 port 27440 ssh2
+Dec 01 08:17:06 server kernel: [5683.400246] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=185.200.11.2 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=6314 DPT=8080 SYN
+Dec 01 08:17:07 server sshd[5810]: Failed password for root from 185.200.11.2 port 11953 ssh2
+Dec 01 08:17:09 server kernel: [1228.918017] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=57689 DPT=80 SYN
+Dec 01 08:17:14 server sshd[3203]: Accepted password for batuhan from 192.168.1.50 port 12522 ssh2
+Dec 01 08:17:18 server sshd[2281]: Failed password for batuhan from 192.168.1.10 port 41440 ssh2
+Dec 01 08:17:19 server sshd[7451]: Failed password for invalid user admin from 203.0.113.55 port 15611 ssh2
+Dec 01 08:17:23 server sshd[9391]: Failed password for ubnt from 10.0.0.5 port 16099 ssh2
+Dec 01 08:17:24 server sshd[4380]: Failed password for admin from 45.33.22.11 port 15674 ssh2
+Dec 01 08:17:29 server sshd[1729]: Accepted password for batuhan from 192.168.1.50 port 22151 ssh2
+Dec 01 08:17:32 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config
+Dec 01 08:17:33 server sshd[2625]: Accepted password for batuhan from 192.168.1.50 port 25144 ssh2
+Dec 01 08:17:36 server sshd[3931]: Accepted password for batuhan from 192.168.1.50 port 18260 ssh2
+Dec 01 08:17:39 server sshd[2634]: Accepted password for batuhan from 192.168.1.50 port 34658 ssh2
+Dec 01 08:17:43 server sshd[9946]: Failed password for admin from 11.22.33.44 port 37190 ssh2
+Dec 01 08:17:48 server sshd[7739]: Failed password for invalid user test from 123.45.67.89 port 54224 ssh2
+Dec 01 08:17:51 server sshd[1760]: Failed password for support from 10.0.0.5 port 57040 ssh2
+Dec 01 08:17:55 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/whoami
+Dec 01 08:17:58 server apache2[498]: [error] [client 10.0.0.5] File does not exist: /var/www/html/wp-admin
+Dec 01 08:18:00 server sshd[1771]: Accepted password for batuhan from 192.168.1.50 port 50891 ssh2
+Dec 01 08:18:03 server sshd[8895]: Failed password for invalid user batuhan from 45.33.22.11 port 38334 ssh2
+Dec 01 08:18:07 server sshd[3010]: Accepted password for batuhan from 192.168.1.50 port 44049 ssh2
+Dec 01 08:18:11 server kernel: [5827.847959] EXT4-fs error (device sda1): ext4_lookup:1594: inode #131073: comm sd-resolve: deleted inode referenced
+Dec 01 08:18:13 server apache2[691]: [error] [client 192.168.1.10] File does not exist: /var/www/html/wp-admin
+Dec 01 08:18:14 server kernel: [5009.598902] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=123.45.67.89 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=38667 DPT=8080 SYN
+Dec 01 08:18:19 server kernel: [7333.680758] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=203.0.113.55 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=56137 DPT=22 SYN
+Dec 01 08:18:23 server kernel: [8544.789482] EXT4-fs error (device sda1): ext4_lookup:1594: inode #131073: comm sd-resolve: deleted inode referenced
+Dec 01 08:18:25 server sshd[9409]: Failed password for invalid user support from 123.45.67.89 port 46586 ssh2
+Dec 01 08:18:29 server kernel: [3888.835629] Out of memory: Kill process 8176 (java) score 900 or sacrifice child
+Dec 01 08:18:33 server apache2[138]: [error] [client 185.200.11.2] File does not exist: /var/www/html/shell.php
+Dec 01 08:18:35 server kernel: [1223.201530] segfault at 0 ip 00007f3a1b2c3d4e sp 00007fffaabbccdd error 4 in libc-2.31.so
+Dec 01 08:18:36 server sshd[2147]: Failed password for pi from 192.168.1.10 port 34017 ssh2
+Dec 01 08:18:41 server kernel: [4107.334672] Out of memory: Kill process 9068 (java) score 900 or sacrifice child
+Dec 01 08:18:43 server sshd[4345]: Failed password for invalid user batuhan from 185.200.11.2 port 35454 ssh2
+Dec 01 08:18:46 server apache2[412]: [error] [client 10.0.0.5] File does not exist: /var/www/html/.env
+Dec 01 08:18:48 server sshd[9684]: Failed password for invalid user guest from 123.45.67.89 port 15037 ssh2
+Dec 01 08:18:52 server sshd[2277]: Failed password for invalid user support from 10.0.0.5 port 46034 ssh2
+Dec 01 08:18:55 server kernel: [2897.723691] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=123.45.67.89 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=28728 DPT=22 SYN
+Dec 01 08:18:57 server sshd[1836]: Failed password for support from 10.0.0.5 port 12981 ssh2
+Dec 01 08:19:01 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:19:02 server sshd[5963]: Failed password for ubnt from 11.22.33.44 port 42636 ssh2
+Dec 01 08:19:03 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:19:06 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Dec 01 08:19:09 server apache2[438]: [error] [client 185.200.11.2] File does not exist: /var/www/html/login.php
+Dec 01 08:19:11 server sshd[8517]: Failed password for invalid user support from 98.76.54.32 port 45352 ssh2
+Dec 01 08:19:12 server sshd[2773]: Failed password for invalid user batuhan from 192.168.1.10 port 36624 ssh2
+Dec 01 08:19:17 server sshd[8437]: Failed password for guest from 10.0.0.5 port 25869 ssh2
+Dec 01 08:19:20 server apache2[534]: [error] [client 10.0.0.5] File does not exist: /var/www/html/login.php
+Dec 01 08:19:24 server sshd[2254]: Failed password for test from 123.45.67.89 port 11182 ssh2
+Dec 01 08:19:26 server kernel: [3083.481213] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=203.0.113.55 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=9494 DPT=22 SYN
+Dec 01 08:19:27 server sshd[1919]: Failed password for invalid user support from 185.200.11.2 port 46712 ssh2
+Dec 01 08:19:32 server sshd[6258]: Failed password for invalid user guest from 185.200.11.2 port 37017 ssh2
+Dec 01 08:19:37 server apache2[642]: [error] [client 10.0.0.5] File does not exist: /var/www/html/config.php
+Dec 01 08:19:40 server sshd[2381]: Failed password for ubnt from 98.76.54.32 port 46566 ssh2
+Dec 01 08:19:43 server sshd[1170]: Accepted password for batuhan from 192.168.1.50 port 29003 ssh2
+Dec 01 08:19:45 server sshd[5071]: Failed password for invalid user root from 98.76.54.32 port 31162 ssh2
+Dec 01 08:19:47 server sshd[3759]: Failed password for ubnt from 203.0.113.55 port 27406 ssh2
+Dec 01 08:19:52 server kernel: [6915.002832] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=28721 DPT=443 SYN
+Dec 01 08:19:54 server sshd[3158]: Failed password for invalid user batuhan from 203.0.113.55 port 52859 ssh2
+Dec 01 08:19:57 server sshd[6349]: Failed password for invalid user ubnt from 45.33.22.11 port 40394 ssh2
+Dec 01 08:20:01 server apache2[750]: [error] [client 10.0.0.5] File does not exist: /var/www/html/admin
+Dec 01 08:20:03 server kernel: [5940.272456] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=8797 DPT=22 SYN
+Dec 01 08:20:04 server kernel: [3056.605321] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=29273 DPT=443 SYN
+Dec 01 08:20:05 server sshd[4877]: Failed password for invalid user batuhan from 45.33.22.11 port 20847 ssh2
+Dec 01 08:20:08 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/sbin/shutdown -r now
+Dec 01 08:20:12 server kernel: [5871.795524] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=44687 DPT=22 SYN
+Dec 01 08:20:17 server sshd[9216]: Failed password for admin from 192.168.1.10 port 29176 ssh2
+Dec 01 08:20:21 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config
+Dec 01 08:20:24 server sshd[3692]: Failed password for ubnt from 123.45.67.89 port 14839 ssh2
+Dec 01 08:20:26 server apache2[934]: [error] [client 10.0.0.5] File does not exist: /var/www/html/.env
+Dec 01 08:20:30 server sshd[2508]: Failed password for admin from 10.0.0.5 port 45035 ssh2
+Dec 01 08:20:31 server kernel: [6489.277563] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=123.45.67.89 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=23563 DPT=443 SYN
+Dec 01 08:20:36 server kernel: [2517.296922] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=46186 DPT=3306 SYN
+Dec 01 08:20:39 server kernel: [5670.815110] segfault at 0 ip 00007f3a1b2c3d4e sp 00007fffaabbccdd error 4 in libc-2.31.so
+Dec 01 08:20:41 server sshd[9895]: Failed password for support from 45.33.22.11 port 50294 ssh2
+Dec 01 08:20:43 server sshd[8189]: Failed password for invalid user guest from 11.22.33.44 port 24568 ssh2
+Dec 01 08:20:45 server sshd[8601]: Accepted password for batuhan from 192.168.1.50 port 32170 ssh2
+Dec 01 08:20:47 server kernel: [4187.829442] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=31389 DPT=8080 SYN
+Dec 01 08:20:49 server apache2[912]: [error] [client 123.45.67.89] File does not exist: /var/www/html/config.php
+Dec 01 08:20:51 server kernel: [8565.067927] EXT4-fs error (device sda1): ext4_lookup:1594: inode #131073: comm sd-resolve: deleted inode referenced
+Dec 01 08:20:54 server sshd[7835]: Failed password for root from 10.0.0.5 port 55525 ssh2
+Dec 01 08:20:58 server kernel: [7750.200039] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=123.45.67.89 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=5407 DPT=80 SYN
+Dec 01 08:20:59 server sshd[3241]: Failed password for invalid user guest from 11.22.33.44 port 59416 ssh2
+Dec 01 08:21:01 server sshd[5649]: Failed password for invalid user batuhan from 185.200.11.2 port 30581 ssh2
+Dec 01 08:21:05 server sshd[7211]: Failed password for ubnt from 98.76.54.32 port 29830 ssh2
+Dec 01 08:21:06 server sshd[4462]: Failed password for invalid user ubnt from 185.200.11.2 port 16879 ssh2
+Dec 01 08:21:09 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/whoami
+Dec 01 08:21:12 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config
+Dec 01 08:21:16 server sshd[4637]: Failed password for invalid user admin from 123.45.67.89 port 44394 ssh2
+Dec 01 08:21:19 server sshd[9627]: Failed password for invalid user support from 11.22.33.44 port 24480 ssh2
+Dec 01 08:21:22 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Dec 01 08:21:23 server sshd[5754]: Failed password for invalid user pi from 123.45.67.89 port 26906 ssh2
+Dec 01 08:21:24 server sshd[1031]: Failed password for invalid user admin from 123.45.67.89 port 47475 ssh2
+Dec 01 08:21:26 server kernel: [8948.317163] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=36552 DPT=22 SYN
+Dec 01 08:21:30 server kernel: [7513.806713] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=185.200.11.2 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=27357 DPT=443 SYN
+Dec 01 08:21:35 server sshd[8252]: Failed password for admin from 123.45.67.89 port 58975 ssh2
+Dec 01 08:21:36 server sshd[1181]: Failed password for batuhan from 123.45.67.89 port 40260 ssh2
+Dec 01 08:21:38 server sshd[4580]: Failed password for test from 123.45.67.89 port 49652 ssh2
+Dec 01 08:21:41 server sshd[2562]: Failed password for invalid user ubnt from 10.0.0.5 port 43626 ssh2
+Dec 01 08:21:42 server apache2[899]: [error] [client 45.33.22.11] File does not exist: /var/www/html/shell.php
+Dec 01 08:21:46 server kernel: [8618.222268] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=13600 DPT=3306 SYN
+Dec 01 08:21:47 server sshd[4935]: Accepted password for batuhan from 192.168.1.50 port 35364 ssh2
+Dec 01 08:21:48 server apache2[975]: [error] [client 203.0.113.55] File does not exist: /var/www/html/admin
+Dec 01 08:21:51 server kernel: [4783.245373] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=98.76.54.32 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=25264 DPT=443 SYN
+Dec 01 08:21:55 server sshd[5849]: Failed password for guest from 98.76.54.32 port 20960 ssh2
+Dec 01 08:21:59 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/whoami
+Dec 01 08:22:02 server kernel: [3948.536137] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=192.168.1.10 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=10272 DPT=443 SYN
+Dec 01 08:22:06 server sshd[5446]: Failed password for test from 45.33.22.11 port 23284 ssh2
+Dec 01 08:22:07 server sshd[4173]: Accepted password for batuhan from 192.168.1.50 port 49239 ssh2
+Dec 01 08:22:12 server kernel: [2098.950492] EXT4-fs error (device sda1): ext4_lookup:1594: inode #131073: comm sd-resolve: deleted inode referenced
+Dec 01 08:22:14 server sshd[9105]: Failed password for root from 10.0.0.5 port 44530 ssh2
+Dec 01 08:22:17 server sshd[6113]: Failed password for test from 98.76.54.32 port 42015 ssh2
+Dec 01 08:22:21 server kernel: [7905.073466] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=98.76.54.32 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=46861 DPT=80 SYN
+Dec 01 08:22:23 server sshd[2355]: Failed password for invalid user ubnt from 45.33.22.11 port 26033 ssh2
+Dec 01 08:22:24 server kernel: [1319.660879] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=31652 DPT=80 SYN
+Dec 01 08:22:27 server sshd[4213]: Failed password for invalid user test from 11.22.33.44 port 17230 ssh2
+Dec 01 08:22:28 server sshd[2873]: Failed password for guest from 45.33.22.11 port 54701 ssh2
+Dec 01 08:22:30 server kernel: [3601.200160] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=2931 DPT=8080 SYN
+Dec 01 08:22:34 server sshd[6425]: Failed password for invalid user batuhan from 11.22.33.44 port 23315 ssh2
+Dec 01 08:22:36 server sshd[9184]: Accepted password for batuhan from 192.168.1.50 port 47232 ssh2
+Dec 01 08:22:41 server sshd[6132]: Failed password for invalid user pi from 10.0.0.5 port 29356 ssh2
+Dec 01 08:22:43 server sshd[6415]: Accepted password for batuhan from 192.168.1.50 port 40190 ssh2
+Dec 01 08:22:46 server sshd[3899]: Failed password for guest from 185.200.11.2 port 55998 ssh2
+Dec 01 08:22:50 server sshd[9424]: Failed password for invalid user test from 192.168.1.10 port 24342 ssh2
+Dec 01 08:22:53 server kernel: [5653.972407] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=23864 DPT=3306 SYN
+Dec 01 08:22:57 server sshd[4391]: Failed password for batuhan from 98.76.54.32 port 52955 ssh2
+Dec 01 08:23:02 server sshd[2029]: Failed password for pi from 11.22.33.44 port 23487 ssh2
+Dec 01 08:23:04 server kernel: [1448.210162] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=203.0.113.55 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=15487 DPT=3306 SYN
+Dec 01 08:23:05 server sshd[2198]: Accepted password for batuhan from 192.168.1.50 port 59333 ssh2
+Dec 01 08:23:10 server sshd[8898]: Accepted password for batuhan from 192.168.1.50 port 31332 ssh2
+Dec 01 08:23:12 server sshd[9938]: Failed password for invalid user pi from 98.76.54.32 port 26455 ssh2
+Dec 01 08:23:17 server kernel: [8465.822824] EXT4-fs error (device sda1): ext4_lookup:1594: inode #131073: comm sd-resolve: deleted inode referenced
+Dec 01 08:23:20 server kernel: [8344.948290] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=185.200.11.2 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=29136 DPT=80 SYN
+Dec 01 08:23:23 server sshd[5985]: Failed password for invalid user test from 10.0.0.5 port 15690 ssh2
+Dec 01 08:23:28 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Dec 01 08:23:33 server sshd[2113]: Failed password for root from 45.33.22.11 port 21021 ssh2
+Dec 01 08:23:35 server sshd[4656]: Failed password for batuhan from 185.200.11.2 port 18813 ssh2
+Dec 01 08:23:36 server sshd[2348]: Failed password for invalid user admin from 192.168.1.10 port 11439 ssh2
+Dec 01 08:23:37 server sshd[4115]: Failed password for invalid user admin from 185.200.11.2 port 47418 ssh2
+Dec 01 08:23:38 server kernel: [2397.763193] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=1374 DPT=80 SYN
+Dec 01 08:23:43 server apache2[643]: [error] [client 45.33.22.11] File does not exist: /var/www/html/wp-admin
+Dec 01 08:23:47 server sshd[6402]: Failed password for test from 45.33.22.11 port 44756 ssh2
+Dec 01 08:23:49 server sshd[6909]: Failed password for test from 185.200.11.2 port 53458 ssh2
+Dec 01 08:23:53 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config
+Dec 01 08:23:56 server sshd[1765]: Failed password for root from 11.22.33.44 port 55374 ssh2
+Dec 01 08:23:58 server sshd[5174]: Failed password for guest from 185.200.11.2 port 51003 ssh2
+Dec 01 08:24:01 server sshd[6737]: Failed password for invalid user support from 203.0.113.55 port 31354 ssh2
+Dec 01 08:24:06 server kernel: [5241.974494] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=16135 DPT=22 SYN
+Dec 01 08:24:09 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:24:12 server sshd[3239]: Failed password for test from 45.33.22.11 port 26966 ssh2
+Dec 01 08:24:17 server kernel: [2061.053201] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=98.76.54.32 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=32415 DPT=8080 SYN
+Dec 01 08:24:20 server sshd[5537]: Failed password for invalid user batuhan from 10.0.0.5 port 33211 ssh2
+Dec 01 08:24:23 server sshd[3559]: Failed password for test from 10.0.0.5 port 53189 ssh2
+Dec 01 08:24:28 server sshd[3677]: Failed password for invalid user pi from 192.168.1.10 port 52363 ssh2
+Dec 01 08:24:31 server sshd[9941]: Failed password for invalid user support from 203.0.113.55 port 58489 ssh2
+Dec 01 08:24:34 server kernel: [3817.501891] segfault at 0 ip 00007f3a1b2c3d4e sp 00007fffaabbccdd error 4 in libc-2.31.so
+Dec 01 08:24:36 server sshd[5806]: Failed password for invalid user root from 192.168.1.10 port 44831 ssh2
+Dec 01 08:24:39 server sshd[4585]: Failed password for ubnt from 123.45.67.89 port 23328 ssh2
+Dec 01 08:24:44 server sshd[1858]: Failed password for guest from 45.33.22.11 port 20033 ssh2
+Dec 01 08:24:46 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/whoami
+Dec 01 08:24:49 server kernel: [5610.563373] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=123.45.67.89 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=52834 DPT=443 SYN
+Dec 01 08:24:54 server sshd[1821]: Accepted password for batuhan from 192.168.1.50 port 27432 ssh2
+Dec 01 08:24:56 server sshd[1333]: Failed password for support from 185.200.11.2 port 35084 ssh2
+Dec 01 08:25:00 server kernel: [4827.715067] EXT4-fs error (device sda1): ext4_lookup:1594: inode #131073: comm sd-resolve: deleted inode referenced
+Dec 01 08:25:03 server sshd[7561]: Failed password for invalid user test from 10.0.0.5 port 28922 ssh2
+Dec 01 08:25:08 server sshd[2070]: Failed password for support from 203.0.113.55 port 50632 ssh2
+Dec 01 08:25:09 server kernel: [1075.773695] Out of memory: Kill process 7416 (java) score 900 or sacrifice child
+Dec 01 08:25:11 server sshd[2130]: Failed password for root from 192.168.1.10 port 54333 ssh2
+Dec 01 08:25:14 server sshd[5370]: Accepted password for batuhan from 192.168.1.50 port 32751 ssh2
+Dec 01 08:25:16 server sshd[1525]: Failed password for invalid user support from 123.45.67.89 port 22033 ssh2
+Dec 01 08:25:17 server kernel: [2173.413593] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=203.0.113.55 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=26729 DPT=443 SYN
+Dec 01 08:25:22 server sshd[7325]: Failed password for invalid user guest from 11.22.33.44 port 38813 ssh2
+Dec 01 08:25:24 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config
+Dec 01 08:25:29 server sshd[6077]: Failed password for invalid user test from 11.22.33.44 port 57613 ssh2
+Dec 01 08:25:32 server apache2[925]: [error] [client 123.45.67.89] File does not exist: /var/www/html/.env
+Dec 01 08:25:33 server kernel: [8397.473072] segfault at 0 ip 00007f3a1b2c3d4e sp 00007fffaabbccdd error 4 in libc-2.31.so
+Dec 01 08:25:35 server kernel: [5963.346470] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=12851 DPT=8080 SYN
+Dec 01 08:25:40 server sshd[3387]: Failed password for invalid user admin from 98.76.54.32 port 26459 ssh2
+Dec 01 08:25:41 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config
+Dec 01 08:25:44 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Dec 01 08:25:45 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/whoami
+Dec 01 08:25:46 server sshd[5855]: Failed password for invalid user test from 203.0.113.55 port 45395 ssh2
+Dec 01 08:25:48 server sshd[1787]: Failed password for support from 203.0.113.55 port 18948 ssh2
+Dec 01 08:25:51 server sshd[7970]: Failed password for invalid user pi from 11.22.33.44 port 18333 ssh2
+Dec 01 08:25:53 server sshd[3085]: Failed password for invalid user ubnt from 203.0.113.55 port 30823 ssh2
+Dec 01 08:25:55 server apache2[865]: [error] [client 185.200.11.2] File does not exist: /var/www/html/wp-admin
+Dec 01 08:25:58 server sshd[7003]: Failed password for ubnt from 98.76.54.32 port 40549 ssh2
+Dec 01 08:26:02 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config
+Dec 01 08:26:03 server apache2[924]: [error] [client 45.33.22.11] File does not exist: /var/www/html/wp-admin
+Dec 01 08:26:07 server apache2[393]: [error] [client 192.168.1.10] File does not exist: /var/www/html/shell.php
+Dec 01 08:26:10 server kernel: [2619.747066] segfault at 0 ip 00007f3a1b2c3d4e sp 00007fffaabbccdd error 4 in libc-2.31.so
+Dec 01 08:26:12 server apache2[896]: [error] [client 123.45.67.89] File does not exist: /var/www/html/shell.php
+Dec 01 08:26:15 server kernel: [8395.702767] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=30709 DPT=22 SYN
+Dec 01 08:26:18 server sshd[5551]: Failed password for invalid user guest from 10.0.0.5 port 24795 ssh2
+Dec 01 08:26:19 server sshd[8582]: Failed password for test from 98.76.54.32 port 19668 ssh2
+Dec 01 08:26:21 server sshd[4853]: Failed password for root from 98.76.54.32 port 57885 ssh2
+Dec 01 08:26:25 server sshd[1146]: Failed password for invalid user test from 185.200.11.2 port 11463 ssh2
+Dec 01 08:26:30 server apache2[665]: [error] [client 123.45.67.89] File does not exist: /var/www/html/admin
+Dec 01 08:26:31 server sshd[4188]: Failed password for test from 45.33.22.11 port 12917 ssh2
+Dec 01 08:26:35 server sshd[7487]: Failed password for invalid user batuhan from 185.200.11.2 port 50692 ssh2
+Dec 01 08:26:38 server kernel: [1863.314968] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=98.76.54.32 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=45342 DPT=22 SYN
+Dec 01 08:26:42 server sshd[7030]: Failed password for ubnt from 203.0.113.55 port 17564 ssh2
+Dec 01 08:26:45 server sshd[6072]: Failed password for pi from 98.76.54.32 port 29555 ssh2
+Dec 01 08:26:46 server sshd[8782]: Failed password for invalid user admin from 98.76.54.32 port 18182 ssh2
+Dec 01 08:26:50 server sshd[6717]: Failed password for invalid user ubnt from 98.76.54.32 port 28903 ssh2
+Dec 01 08:26:51 server sshd[2519]: Failed password for invalid user test from 11.22.33.44 port 33453 ssh2
+Dec 01 08:26:55 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Dec 01 08:27:00 server sshd[7439]: Failed password for invalid user guest from 203.0.113.55 port 56670 ssh2
+Dec 01 08:27:02 server sshd[3418]: Failed password for support from 45.33.22.11 port 49700 ssh2
+Dec 01 08:27:07 server kernel: [3129.125456] EXT4-fs error (device sda1): ext4_lookup:1594: inode #131073: comm sd-resolve: deleted inode referenced
+Dec 01 08:27:09 server apache2[882]: [error] [client 123.45.67.89] File does not exist: /var/www/html/login.php
+Dec 01 08:27:14 server apache2[640]: [error] [client 45.33.22.11] File does not exist: /var/www/html/shell.php
+Dec 01 08:27:17 server sshd[6087]: Failed password for invalid user admin from 11.22.33.44 port 29446 ssh2
+Dec 01 08:27:18 server sshd[3776]: Failed password for guest from 203.0.113.55 port 15444 ssh2
+Dec 01 08:27:22 server sshd[1907]: Accepted password for batuhan from 192.168.1.50 port 11152 ssh2
+Dec 01 08:27:25 server sshd[9555]: Failed password for admin from 98.76.54.32 port 33324 ssh2
+Dec 01 08:27:29 server sshd[9141]: Accepted password for batuhan from 192.168.1.50 port 18877 ssh2
+Dec 01 08:27:32 server sshd[1242]: Accepted password for batuhan from 192.168.1.50 port 35436 ssh2
+Dec 01 08:27:35 server sshd[4510]: Failed password for invalid user pi from 10.0.0.5 port 54225 ssh2
+Dec 01 08:27:39 server sshd[1065]: Accepted password for batuhan from 192.168.1.50 port 52059 ssh2
+Dec 01 08:27:42 server apache2[940]: [error] [client 98.76.54.32] File does not exist: /var/www/html/.env
+Dec 01 08:27:45 server sshd[2152]: Accepted password for batuhan from 192.168.1.50 port 22842 ssh2
+Dec 01 08:27:47 server sshd[1912]: Failed password for support from 123.45.67.89 port 34697 ssh2
+Dec 01 08:27:48 server sshd[5963]: Failed password for pi from 185.200.11.2 port 45866 ssh2
+Dec 01 08:27:51 server sshd[5562]: Failed password for test from 203.0.113.55 port 20858 ssh2
+Dec 01 08:27:54 server sshd[9321]: Failed password for invalid user admin from 185.200.11.2 port 18155 ssh2
+Dec 01 08:27:56 server kernel: [3478.305105] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=22576 DPT=443 SYN
+Dec 01 08:28:01 server sshd[4260]: Failed password for invalid user pi from 203.0.113.55 port 42543 ssh2
+Dec 01 08:28:05 server sshd[8784]: Failed password for invalid user ubnt from 192.168.1.10 port 35819 ssh2
+Dec 01 08:28:06 server sshd[9857]: Accepted password for batuhan from 192.168.1.50 port 11190 ssh2
+Dec 01 08:28:08 server sshd[1304]: Failed password for invalid user pi from 10.0.0.5 port 26502 ssh2
+Dec 01 08:28:12 server apache2[803]: [error] [client 123.45.67.89] File does not exist: /var/www/html/admin
+Dec 01 08:28:17 server sshd[6285]: Failed password for invalid user ubnt from 10.0.0.5 port 48953 ssh2
+Dec 01 08:28:18 server kernel: [7518.222770] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=53483 DPT=3306 SYN
+Dec 01 08:28:19 server sshd[9974]: Accepted password for batuhan from 192.168.1.50 port 27262 ssh2
+Dec 01 08:28:21 server sshd[8502]: Failed password for guest from 98.76.54.32 port 51650 ssh2
+Dec 01 08:28:23 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:28:28 server sshd[7111]: Failed password for invalid user root from 11.22.33.44 port 21180 ssh2
+Dec 01 08:28:30 server sshd[3385]: Failed password for invalid user guest from 203.0.113.55 port 49410 ssh2
+Dec 01 08:28:34 server sshd[2882]: Failed password for pi from 45.33.22.11 port 52175 ssh2
+Dec 01 08:28:39 server apache2[533]: [error] [client 203.0.113.55] File does not exist: /var/www/html/login.php
+Dec 01 08:28:40 server kernel: [6670.574124] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=25758 DPT=80 SYN
+Dec 01 08:28:45 server sshd[7892]: Failed password for invalid user pi from 192.168.1.10 port 44743 ssh2
+Dec 01 08:28:48 server sshd[6135]: Failed password for batuhan from 123.45.67.89 port 58885 ssh2
+Dec 01 08:28:49 server sshd[7111]: Failed password for invalid user root from 11.22.33.44 port 59586 ssh2
+Dec 01 08:28:51 server kernel: [6325.862580] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=45.33.22.11 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=19367 DPT=443 SYN
+Dec 01 08:28:54 server sshd[3934]: Failed password for support from 192.168.1.10 port 37205 ssh2
+Dec 01 08:28:56 server sshd[7707]: Failed password for invalid user test from 10.0.0.5 port 50368 ssh2
+Dec 01 08:28:59 server kernel: [5939.929256] segfault at 0 ip 00007f3a1b2c3d4e sp 00007fffaabbccdd error 4 in libc-2.31.so
+Dec 01 08:29:03 server sshd[7305]: Accepted password for batuhan from 192.168.1.50 port 32169 ssh2
+Dec 01 08:29:04 server sshd[8060]: Failed password for test from 185.200.11.2 port 28045 ssh2
+Dec 01 08:29:05 server sshd[8884]: Failed password for root from 123.45.67.89 port 14786 ssh2
+Dec 01 08:29:09 server kernel: [7278.596163] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=98.76.54.32 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=60878 DPT=443 SYN
+Dec 01 08:29:14 server sshd[4089]: Failed password for support from 11.22.33.44 port 39693 ssh2
+Dec 01 08:29:18 server sshd[6415]: Failed password for support from 203.0.113.55 port 21899 ssh2
+Dec 01 08:29:22 server sshd[3408]: Failed password for support from 185.200.11.2 port 22274 ssh2
+Dec 01 08:29:25 server sshd[4109]: Failed password for support from 192.168.1.10 port 56438 ssh2
+Dec 01 08:29:29 server sshd[5627]: Failed password for invalid user test from 123.45.67.89 port 25567 ssh2
+Dec 01 08:29:33 server sshd[9398]: Failed password for batuhan from 123.45.67.89 port 15655 ssh2
+Dec 01 08:29:38 server kernel: [2438.887186] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=11.22.33.44 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=4888 DPT=8080 SYN
+Dec 01 08:29:43 server apache2[626]: [error] [client 45.33.22.11] File does not exist: /var/www/html/admin
+Dec 01 08:29:47 server sudo: batuhan : TTY=pts/0 ; PWD=/home/batuhan ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 01 08:29:50 server kernel: [1403.543783] [UFW BLOCK] IN=eth0 OUT= MAC=00:00:00:00:00:00 SRC=10.0.0.5 DST=192.168.1.10 LEN=40 PROTO=TCP SPT=11703 DPT=3306 SYN
+Dec 01 08:29:53 server sshd[3884]: Failed password for invalid user ubnt from 203.0.113.55 port 58116 ssh2

@@ -1,0 +1,78 @@
+Nov 15 08:15:22 server1 kernel: [12345.678901] Out of memory: Kill process 1234 (apache2) score 567 or sacrifice child
+Nov 15 08:23:45 server1 sshd[12345]: Failed password for invalid user admin from 192.168.1.100 port 45678 ssh2
+Nov 15 08:23:47 server1 sshd[12346]: Failed password for invalid user root from 192.168.1.100 port 45679 ssh2
+Nov 15 08:24:12 server1 sshd[12347]: Failed password for testuser from 10.0.0.50 port 51234 ssh2
+Nov 15 08:25:33 server1 sshd[12348]: Accepted password for john from 172.16.0.25 port 52341 ssh2
+Nov 15 08:30:15 server1 systemd[1]: Started Session 45 of user john.
+Nov 15 08:45:22 server1 cron[5678]: (root) CMD (/usr/local/bin/backup.sh)
+Nov 15 09:00:00 server1 anacron[9012]: Job `cron.daily' started
+Nov 15 09:15:22 server1 sshd[12349]: Failed password for invalid user oracle from 203.0.113.45 port 33445 ssh2
+Nov 15 09:15:24 server1 sshd[12350]: Failed password for invalid user oracle from 203.0.113.45 port 33446 ssh2
+Nov 15 09:15:26 server1 sshd[12351]: Failed password for invalid user oracle from 203.0.113.45 port 33447 ssh2
+Nov 15 09:30:44 server1 kernel: [13456.789012] segfault at 7f8a3c error 4 in libc-2.31.so
+Nov 15 10:00:00 server1 CRON[10234]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 10:15:33 server1 apache2[11223]: [error] [client 192.168.1.55] File does not exist: /var/www/html/admin.php
+Nov 15 10:16:44 server1 apache2[11224]: [error] [client 192.168.1.55] File does not exist: /var/www/html/login.php
+Nov 15 10:17:22 server1 apache2[11225]: [error] [client 192.168.1.55] File does not exist: /var/www/html/wp-admin.php
+Nov 15 10:45:18 server1 sshd[12352]: Accepted password for admin from 192.168.1.10 port 44556 ssh2
+Nov 15 11:00:00 server1 systemd[1]: Starting Daily apt download activities...
+Nov 15 11:22:11 server1 sshd[12353]: Failed password for root from 198.51.100.77 port 22334 ssh2
+Nov 15 11:22:13 server1 sshd[12354]: Failed password for root from 198.51.100.77 port 22335 ssh2
+Nov 15 11:45:33 server1 postfix/smtpd[12456]: connect from unknown[203.0.113.88]
+Nov 15 11:45:35 server1 postfix/smtpd[12456]: NOQUEUE: reject: RCPT from unknown[203.0.113.88]: 554 5.7.1 Service unavailable
+Nov 15 12:00:00 server1 systemd[1]: Starting Clean php session files...
+Nov 15 12:33:44 server1 sshd[12355]: Failed password for testuser from 10.0.0.50 port 61122 ssh2
+Nov 15 12:34:01 server1 sshd[12356]: Accepted password for testuser from 10.0.0.50 port 61123 ssh2
+Nov 15 13:15:22 server1 kernel: [16789.012345] TCP: request_sock_TCP: Possible SYN flooding on port 80
+Nov 15 13:15:45 server1 kernel: [16789.123456] Firewall: *TCP_IN Blocked* IN=eth0 OUT= SRC=203.0.113.45 DST=192.168.1.1
+Nov 15 14:11:55 server1 sshd[12357]: Failed password for invalid user backup from 192.168.1.100 port 55667 ssh2
+Nov 15 14:12:22 server1 sshd[12358]: Failed password for mary from 172.16.0.88 port 43211 ssh2
+Nov 15 14:30:11 server1 mysqld[3456]: [Warning] Access denied for user 'root'@'192.168.1.77' (using password: YES)
+Nov 15 14:30:15 server1 mysqld[3456]: [Warning] Access denied for user 'admin'@'192.168.1.77' (using password: YES)
+Nov 15 15:00:00 server1 CRON[13567]: pam_unix(cron:session): session closed for user root
+Nov 15 15:05:33 server1 sshd[12359]: Accepted password for mary from 172.16.0.88 port 43212 ssh2
+Nov 16 00:00:01 server1 anacron[15678]: Job `cron.weekly' started
+Nov 16 06:25:22 server1 systemd[1]: Starting Daily apt upgrade and clean activities...
+Nov 16 07:14:21 server1 sshd[12360]: Failed password for invalid user guest from 203.0.113.45 port 39988 ssh2
+Nov 16 07:14:23 server1 sshd[12361]: Failed password for invalid user guest from 203.0.113.45 port 39989 ssh2
+Nov 16 08:00:00 server1 rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0"] rsyslogd was HUPed
+Nov 16 08:30:44 server1 kernel: [78901.234567] EXT4-fs error (device sda1): ext4_find_entry:1234: inode #789
+Nov 16 08:55:44 server1 sshd[12362]: Failed password for admin from 192.168.1.10 port 44789 ssh2
+Nov 16 08:55:50 server1 sshd[12363]: Accepted password for admin from 192.168.1.10 port 44790 ssh2
+Nov 16 09:15:33 server1 apache2[16789]: [error] [client 10.0.0.88] client denied by server configuration: /var/www/html/.git/
+Nov 16 10:22:15 server1 sshd[12364]: Failed password for root from 198.51.100.77 port 33221 ssh2
+Nov 16 10:22:17 server1 sshd[12365]: Failed password for root from 198.51.100.77 port 33222 ssh2
+Nov 16 10:22:19 server1 sshd[12366]: Failed password for root from 198.51.100.77 port 33223 ssh2
+Nov 16 10:45:22 server1 postfix/smtp[17890]: connect to mail.example.com[192.0.2.5]:25: Connection timed out
+Nov 16 11:00:00 server1 systemd[1]: Starting Cleanup of Temporary Directories...
+Nov 16 11:45:32 server1 sshd[12367]: Accepted password for john from 172.16.0.25 port 54432 ssh2
+Nov 16 12:15:44 server1 kernel: [89012.345678] Out of memory: Kill process 5678 (mysql) score 890 or sacrifice child
+Nov 16 13:18:45 server1 sshd[12368]: Failed password for invalid user www-data from 192.168.1.100 port 61234 ssh2
+Nov 16 13:18:47 server1 sshd[12369]: Failed password for invalid user www-data from 192.168.1.100 port 61235 ssh2
+Nov 16 14:00:00 server1 CRON[18901]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Nov 16 14:33:21 server1 sshd[12370]: Failed password for testuser from 10.0.0.50 port 52341 ssh2
+Nov 16 15:22:18 server1 sudo: john : TTY=pts/0 ; PWD=/home/john ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Nov 16 15:22:45 server1 sudo: mary : TTY=pts/1 ; PWD=/home/mary ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 16 16:05:12 server1 sshd[12371]: Failed password for invalid user admin from 203.0.113.99 port 44556 ssh2
+Nov 16 16:05:14 server1 sshd[12372]: Failed password for invalid user admin from 203.0.113.99 port 44557 ssh2
+Nov 16 16:05:16 server1 sshd[12373]: Failed password for invalid user admin from 203.0.113.99 port 44558 ssh2
+Nov 16 16:30:22 server1 kernel: [92345.678901] UFW BLOCK: IN=eth0 OUT= MAC= SRC=203.0.113.99 DST=192.168.1.1 PROTO=TCP SPT=54321 DPT=22
+Nov 16 18:00:00 server1 systemd[1]: Starting Rotate log files...
+Nov 17 08:12:33 server1 sshd[12374]: Accepted password for admin from 192.168.1.10 port 45123 ssh2
+Nov 17 09:00:00 server1 anacron[20123]: Job `cron.daily' started
+Nov 17 09:44:22 server1 sshd[12375]: Failed password for root from 198.51.100.77 port 35544 ssh2
+Nov 17 10:15:55 server1 sshd[12376]: Failed password for invalid user postgres from 192.168.1.100 port 66778 ssh2
+Nov 17 10:30:44 server1 apache2[21234]: [error] [client 192.168.1.55] ModSecurity: Access denied with code 403
+Nov 17 11:00:00 server1 systemd[1]: Starting Daily man-db regeneration...
+Nov 17 11:23:18 server1 sshd[12377]: Accepted password for testuser from 10.0.0.50 port 51789 ssh2
+Nov 17 12:00:00 server1 CRON[22345]: pam_unix(cron:session): session closed for user root
+Nov 17 12:45:39 server1 sshd[12378]: Failed password for mary from 172.16.0.88 port 43567 ssh2
+Nov 17 13:15:22 server1 kernel: [112345.678901] oom-killer: Out of memory and no killable processes
+Nov 17 13:33:21 server1 sudo: admin : TTY=pts/2 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -f syslog
+Nov 17 14:22:44 server1 sshd[12379]: Failed password for invalid user ubuntu from 203.0.113.45 port 41122 ssh2
+Nov 17 14:22:46 server1 sshd[12380]: Failed password for invalid user ubuntu from 203.0.113.45 port 41123 ssh2
+Nov 17 15:00:00 server1 systemd[1]: Starting Package Manager...
+Nov 17 15:11:29 server1 sshd[12381]: Accepted password for john from 172.16.0.25 port 55661 ssh2
+Nov 17 16:00:00 server1 CRON[23456]: pam_unix(cron:session): session opened for user backup by (uid=0)
+Nov 17 16:30:15 server1 postfix/smtpd[24567]: warning: hostname 203.0.113.66 does not resolve to address
+Nov 17 17:00:00 server1 systemd[1]: logrotate.service: Succeeded.

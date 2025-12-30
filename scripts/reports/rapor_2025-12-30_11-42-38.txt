@@ -1,0 +1,24 @@
+[0;34m╔════════════════════════════════════════╗[0m
+[0;34m║         ÖZET RAPOR                     ║[0m
+[0;34m╚════════════════════════════════════════╝[0m
+
+Dosya: /var/log/sysstat/sa30
+Tarih: Tue Dec 30 11:42:38 AM +03 2025
+
+[1;33m[1mBaşarısız SSH Giriş Denemeleri:[0m
+================================
+Toplam Başarısız Deneme: 0
+
+Başarısız giriş denemesi bulunamadı.
+
+[0;32m[1mBaşarılı SSH Girişleri:[0m
+================================
+Toplam Başarılı Giriş: 0
+
+Başarılı giriş bulunamadı.
+
+[0;34m[1mIP Bazında Detaylı Analiz:[0m
+================================
+IP Adresi            Başarısız    Başarılı     Toplam     Durum     
+----------           ---------       --------        ------     ------    
+
